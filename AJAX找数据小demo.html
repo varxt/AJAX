@@ -29,13 +29,9 @@
             success:function(data){
 
                 if(data.code===0){
-//                    var li = document.createElement('li');
-//                    ul.innerHTML = '';
-//                    ul.innerHTML += '<li>姓名:'+data.data.name+'</li>'+'<li>年龄:'+data.data.age+'</li>'+'<li>爱好:'+data.data.hobby+'</li>'+'<li>信息:'+data.data.info+'</li>';
 
                     box.innerHTML = '姓名:'+data.data.name+'年龄:'+data.data.age+'爱好:'+data.data.hobby+'信息:'+data.data.info;
 
-//                    box.appendChild(ul)
                 }else{
                     alert('查无此人!')
                 }
